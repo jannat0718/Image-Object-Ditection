@@ -32,7 +32,7 @@ TinyYOLOv3 is a smaller and computationally efficient version of YOLOv3, designe
 
 The results of the object detection models were analyzed and compared based on their detection capabilities and the percentage probabilities of the detected objects.
 
-**RetinaNet:** This model showed reasonable performance in detecting objects in the providing images pre-collected from web. However, the detected objects' percentage probabilities were relatively lower compared to YOLOv3. Some objects were not detected by RetinaNet but were detected by YOLOv3.
+**RetinaNet:** This model showed reasonable performance in detecting objects in the providing images pre-collected from web. However, the detected objects' percentage probabilities were relatively lower compared to YOLOv3. Some objects were not detected by RetinaNet but were detected by YOLOv3. Also, RetinaNet is preferable for scenarios with class imbalance concerns.
 
 **YOLOv3:** Among the three models, YOLOv3 demonstrated the best object detection capabilities. It was able to detect more objects with higher percentage probabilities than the other two models. This indicates that YOLOv3 can provide more accurate object detection in images.
 
